@@ -121,8 +121,10 @@ LOGO */
 .contact-links {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+}
+
+.contact-links > li:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-logo {
@@ -131,6 +133,11 @@ LOGO */
 
 .navigation-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.navigation-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* INDEX.HTML 
@@ -182,6 +189,7 @@ Main Page - HERO */
 .features-text {
   font-size: 14px;
   line-height: 1.7;
+  margin-top: 10px;
 }
 
 .features-item {
