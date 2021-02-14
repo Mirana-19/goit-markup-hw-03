@@ -31,7 +31,7 @@ body {
   color: var(--accent-color);
 }
 
-/*HEADER*/
+/*PAGE-CONTAINERS*/
 
 .header-container,
 .main-container,
@@ -43,7 +43,21 @@ body {
   margin-right: auto;
 }
 
-/* LOGO */
+/* HIDDEN */
+
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/*HEADER 
+>
+LOGO */
 
 .header-logo,
 .footer-logo {
@@ -96,7 +110,7 @@ body {
   color: var(--accent-color);
 }
 
-/* POSITIONING */
+/* POSITIONING HEADER */
 
 .header-container {
   display: flex;
@@ -120,7 +134,7 @@ body {
 }
 
 /* INDEX.HTML 
-
+>
 Main Page - HERO */
 
 .features {
@@ -146,6 +160,7 @@ Main Page - HERO */
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
+
   margin-top: 30px;
   border-radius: 4px;
   padding-top: 10px;
@@ -154,17 +169,7 @@ Main Page - HERO */
   padding-left: 30px;
 }
 
-/* Features */
-
-.hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-}
+/* FEATURES */
 
 .features-title {
   font-size: 14px;
@@ -191,10 +196,14 @@ Main Page - HERO */
   flex-wrap: wrap;
 }
 
-/* We do & team members */
+/* WE DO SECTION*/
 
 .team {
   background-color: var(--background-color);
+  margin-top: 94px;
+}
+
+.we-do-title {
   margin-top: 94px;
 }
 
@@ -219,6 +228,8 @@ Main Page - HERO */
   color: var(--title-color);
 }
 
+/* TEAM MEMBERS SECTION */
+
 .team-members-title {
   padding-top: 94px;
 }
@@ -233,10 +244,6 @@ Main Page - HERO */
 .team-members-item {
   margin-right: 30px;
   flex-basis: calc(100% / 4 - 30px);
-}
-
-.we-do-title {
-  margin-top: 94px;
 }
 
 .team-members-person {
@@ -295,8 +302,8 @@ Main Page - HERO */
 }
 
 /* PORTFOLIO.HTML
-
-Main Page-filter buttons*/
+>
+FILTER BUTTONS*/
 
 .projects-filter-button {
   font-size: 16px;
@@ -319,7 +326,23 @@ Main Page-filter buttons*/
   background-color: var(--accent-color);
 }
 
-/* our works images */
+/* POSITIONING FILTER BUTTONS */
+
+.projects {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.projects-filter {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-filter:not(:last-child) > li {
+  margin-right: 8px;
+}
+
+/* OUR WORKS - IMAGES */
 
 .project-img-title {
   font-size: 18px;
@@ -337,23 +360,7 @@ Main Page-filter buttons*/
   margin-top: 4px;
 }
 
-/* POSITIONING  BUTTOMS */
-
-.projects {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.projects-filter {
-  display: flex;
-  justify-content: center;
-}
-
-.projects-filter:not(:last-child) > li {
-  margin-right: 8px;
-}
-
-/* OUR-WORKS POSITIONING */
+/* OUR-WORKS IMAGES POSITIONING */
 
 .project-images {
   display: flex;
