@@ -344,6 +344,7 @@ FILTER BUTTONS*/
 .projects-filter {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .projects-filter:not(:last-child) > li {
@@ -359,20 +360,21 @@ FILTER BUTTONS*/
   letter-spacing: 0.06em;
   color: var(--title-color);
   padding-top: 20px;
+  padding-left: 24px;
 }
 
 .project-img-txt {
   font-size: 16px;
   line-height: 1.9;
-  padding-bottom: 20px;
   margin-top: 4px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 /* OUR-WORKS IMAGES POSITIONING */
 
 .project-images {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   margin-right: -30px;
   margin-top: -30px;
