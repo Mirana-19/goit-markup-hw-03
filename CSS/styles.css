@@ -253,7 +253,6 @@ Main Page - HERO */
   flex-basis: calc(100% / 4 - 30px);
   background-color: var(--white-color);
   overflow: hidden;
-  padding-bottom: 30px;
   margin-right: 30px;
   border-radius: 4px;
 }
@@ -263,7 +262,6 @@ Main Page - HERO */
   font-weight: 500;
   line-height: 1.2;
   color: var(--title-color);
-  padding-top: 30px;
   text-align: center;
 }
 
@@ -272,6 +270,11 @@ Main Page - HERO */
   line-height: 1.2;
   margin-top: 10px;
   text-align: center;
+}
+
+.team-members-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Footer - address and contact links */
