@@ -123,6 +123,11 @@ LOGO */
   align-items: center;
 }
 
+.nav {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .contact-links > li:not(:last-child) {
   margin-right: 50px;
 }
@@ -135,11 +140,6 @@ LOGO */
   margin-right: 50px;
 }
 
-.navigation-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-
 /* INDEX.HTML 
 >
 Main Page - HERO */
@@ -149,7 +149,7 @@ Main Page - HERO */
   text-align: center;
   padding-top: 200px;
   padding-right: 452px;
-  padding-bottom: 210px;
+  padding-bottom: 200px;
   padding-left: 452px;
 }
 
