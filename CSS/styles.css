@@ -202,8 +202,11 @@ Main Page - HERO */
 .features-list {
   display: flex;
   margin-right: -30px;
-  padding-top: 94px;
   flex-wrap: wrap;
+}
+
+.features-section {
+  padding-top: 94px;
 }
 
 /* WE DO SECTION*/
