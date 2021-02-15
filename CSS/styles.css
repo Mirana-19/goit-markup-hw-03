@@ -64,7 +64,7 @@ LOGO */
   font-family: 'raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.17;
 }
 
 .header-logo {
@@ -112,20 +112,21 @@ LOGO */
 
 /* POSITIONING HEADER */
 
+header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navigation,
 .contact-links {
   display: flex;
   align-items: center;
-}
-
-.nav {
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .contact-links > li:not(:last-child) {
@@ -207,13 +208,9 @@ Main Page - HERO */
 
 /* WE DO SECTION*/
 
-.team {
-  background-color: var(--background-color);
-  margin-top: 94px;
-}
-
-.we-do-title {
-  margin-top: 94px;
+.we-do-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .we-do-img-list {
@@ -239,8 +236,10 @@ Main Page - HERO */
 
 /* TEAM MEMBERS SECTION */
 
-.team-members-title {
+.team-section {
   padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--background-color);
 }
 
 .team-members-list {
@@ -251,8 +250,12 @@ Main Page - HERO */
 }
 
 .team-members-item {
-  margin-right: 30px;
   flex-basis: calc(100% / 4 - 30px);
+  background-color: var(--white-color);
+  overflow: hidden;
+  padding-bottom: 30px;
+  margin-right: 30px;
+  border-radius: 4px;
 }
 
 .team-members-person {
@@ -267,16 +270,11 @@ Main Page - HERO */
 .team-members-role {
   font-size: 16px;
   line-height: 1.2;
-  padding-bottom: 30px;
   margin-top: 10px;
   text-align: center;
 }
 
 /* Footer - address and contact links */
-
-.footer-background-color {
-  background-color: var(--h1-background-color);
-}
 
 .address-text {
   font-size: 14px;
@@ -292,18 +290,19 @@ Main Page - HERO */
 
 /* FOOTER Positioning*/
 
+.address {
+  background-color: var(--h1-background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .address-container {
   margin-top: 20px;
   display: block;
 }
 
-.footer-address-list {
-  padding-top: 60px;
-}
-
 .footer-contact-list {
   margin-top: 9px;
-  padding-bottom: 90px;
 }
 
 .footer-contact-item {
@@ -326,7 +325,6 @@ FILTER BUTTONS*/
   padding-bottom: 6px;
   padding-left: 22px;
   outline: none;
-  margin-bottom: 50px;
 }
 
 .projects-filter-button:hover,
@@ -334,8 +332,6 @@ FILTER BUTTONS*/
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-
-/* POSITIONING FILTER BUTTONS */
 
 .projects {
   padding-top: 94px;
@@ -346,6 +342,7 @@ FILTER BUTTONS*/
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .projects-filter:not(:last-child) > li {
@@ -360,19 +357,20 @@ FILTER BUTTONS*/
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
-  padding-top: 20px;
-  padding-left: 24px;
 }
 
 .project-img-txt {
   font-size: 16px;
   line-height: 1.9;
   margin-top: 4px;
+}
+
+.project-container {
+  padding-top: 20px;
+  padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
 }
-
-/* OUR-WORKS IMAGES POSITIONING */
 
 .project-images {
   display: flex;
