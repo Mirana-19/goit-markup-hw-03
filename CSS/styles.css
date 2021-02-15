@@ -36,7 +36,7 @@ body {
 .header-container,
 .main-container,
 .footer-container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -150,7 +150,6 @@ Main Page - HERO */
   padding-top: 200px;
   padding-right: 452px;
   padding-bottom: 210px;
-
   padding-left: 452px;
 }
 
