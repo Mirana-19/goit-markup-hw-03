@@ -365,19 +365,19 @@ FILTER BUTTONS*/
   margin-top: 4px;
 }
 
+.project-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-top: -30px;
+}
+
 .project-container {
   display: block;
   padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
-}
-
-.project-images {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -30px;
-  margin-top: -30px;
 }
 
 .project-images-item {
