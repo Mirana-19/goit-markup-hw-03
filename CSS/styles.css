@@ -255,7 +255,6 @@ Main Page - HERO */
 .team-members-item {
   flex-basis: calc(100% / 4 - 30px);
   background-color: var(--white-color);
-  overflow: hidden;
   margin-right: 30px;
   border-radius: 4px;
 }
