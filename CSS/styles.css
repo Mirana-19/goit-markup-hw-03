@@ -8,6 +8,7 @@
   --logo-color-black: rgb(0, 0, 0);
   --h1-background-color: rgb(47, 48, 58);
   --footer-text-color: rgba(255, 255, 255, 0.6);
+  --border-image-color: rgb(238, 238, 238);
 }
 
 /* main styles */
@@ -115,6 +116,10 @@ LOGO */
 header {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+
+.portfolio-header {
+  border-bottom: 1px solid rgb(236, 236, 236);
 }
 
 .header-container {
@@ -383,6 +388,9 @@ FILTER BUTTONS*/
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
+  border-right: 1px solid rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(238, 238, 238);
+  border-left: 1px solid rgb(238, 238, 238);
 }
 
 .project-images-item {
